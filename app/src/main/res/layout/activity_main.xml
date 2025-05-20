@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp">
+<<<<<<< HEAD
 
     <SearchView
         android:id="@+id/searchView"
@@ -20,6 +21,15 @@
         android:paddingBottom="30dp"
         android:layout_weight="1" />
 
+=======
+    <ListView
+        android:id="@+id/lvChars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:layout_weight="1"/>
+>>>>>>> 48b34c0 (Commit inicial do projeto AppMaster)
     <TextView
         android:id="@+id/tvEmpty"
         android:layout_width="wrap_content"
@@ -27,15 +37,23 @@
         android:text="Nenhum carro cadastrado"
         android:visibility="gone"
         android:paddingTop="30dp"
+<<<<<<< HEAD
         android:paddingBottom="30dp" />
 
+=======
+        android:paddingBottom="30dp"/>
+>>>>>>> 48b34c0 (Commit inicial do projeto AppMaster)
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Adicionar carro"
         android:onClick="newChar"
         android:layout_weight="0"
+<<<<<<< HEAD
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"/>
 
+=======
+        android:layout_gravity="center_horizontal"/>
+>>>>>>> 48b34c0 (Commit inicial do projeto AppMaster)
 </LinearLayout>
