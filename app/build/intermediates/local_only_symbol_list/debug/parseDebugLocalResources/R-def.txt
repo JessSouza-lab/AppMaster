@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnDelete
+id btnDetalhesCarroItem
+id btnEditarCarro
+id btnExcluirCarro
+id btnSave
+id etAno
+id etMarca
+id etNome
+id lvChars
+id searchView
+id tvDetalheAno
+id tvDetalheMarca
+id tvDetalheNome
+id tvEmpty
+id tvNomeCarroItem
+layout activity_detalhe_carro
+layout activity_main
+layout activity_main2
+layout item_carro
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.AppMaster
+style Theme.AppMaster
+xml backup_rules
+xml data_extraction_rules
